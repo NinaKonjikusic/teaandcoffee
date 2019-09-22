@@ -1,0 +1,413 @@
+@import url("font-awesome.min.css");
+
+#logo {
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    padding: 20px;
+}
+
+#logo img {
+    margin: 0 auto !important;
+}
+
+.navHeaderCollapse {
+    text-align: center !important;
+}
+
+.navHeaderCollapse ul {
+    margin: 0 auto;
+    width: 90%;
+    transform: translateX(+37%);
+}
+
+.navbar-nav>li>a {
+    color: rgb(112, 58, 14) !important;
+}
+
+.navbar-nav>li>a:hover {
+    background: rgb(240, 237, 77) !important;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+#myCarousel {
+    width: 100%;
+}
+
+.carousel-inner {
+    height: 500px !important;
+}
+
+#myCarousel img {
+    width: 100%;
+    height: 100% !important;
+    min-height: 500px;
+}
+
+.fixed-height {
+    height: 100% !important;
+}
+
+.container {
+    width: 100%;
+}
+
+.info-container {
+    margin-bottom: 10px;
+}
+
+.tea-info {
+    color: rgb(146, 218, 40);
+    text-align: center;
+}
+
+.coffee-info {
+    color: #977129;
+    text-align: center;
+}
+
+.pull-left {
+    margin-right: 10px;
+}
+
+.pull-right {
+    margin-left: 10px;
+}
+
+
+.item-row {
+    min-height: 1400px;
+}
+
+.each-tea {
+    margin-top: 20px;
+}
+
+.each-tea span {
+    display: block;
+    text-align: center;
+}
+
+.item-name {
+    color: rgb(121, 180, 31);
+}
+
+.info-header {
+    text-align: center;
+    color: #32d13a;
+}
+
+.registerbtn, .loginbtn, .contactbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+background-color: #ddd;
+outline: none;
+}
+
+.registerbtn:hover, .loginbtn:hover, .contactbtn:hover {
+    opacity:1;
+}
+
+#contactInfo {
+min-height: 300px;
+margin-top: 20px;
+text-align: center;
+}
+
+
+.one-item {
+    min-height: 400px;
+    margin-top: 20px;
+}
+
+.one-item img {
+    min-height: 300px;
+}
+
+
+.one-item span {
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.item-price {
+    padding-bottom: 15px;
+    color: rgb(60, 190, 190);
+}
+
+.item-description {
+    font-size: 18px;
+    color: rgb(112, 58, 14) !important;    
+}
+
+#change-view {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#asc, #desc, #search {
+  margin: 10px;
+  display: inline-block;
+}
+
+#item-search {
+  display: inline-block;
+  margin: 10px;
+  margin-left: 40px;
+  margin-right: 0px;
+  width: 25% !important;
+}
+
+#admin {
+  width: 100%;
+  min-height: 400px;
+  margin-top: 20px;
+}
+
+#menu-pane ul {
+  list-style: none;
+}
+
+#menu-pane {
+  float: left;
+  margin-right: 10%;
+  min-height: 400px;
+  background: rgb(240, 237, 77) !important;
+  margin: 0 auto;
+}
+
+#menu-pane button {
+  margin-top: 20px;
+}
+
+#menu-pane, #display-pane {
+  display: inline-block;
+}
+
+#display-pane {
+  text-align: center;
+  margin: 0px auto;
+  max-width: 60%;
+  min-width: 50%;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+#display-pane table, tr, th, td {
+  border: 1px solid rgb(148, 109, 35);
+}
+
+#display-pane th {
+  text-align: center;
+}
+
+#display-pane {
+  min-height: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  margin-left: 70px;
+}
+
+.hidden_div {
+  display: none;
+}
+
+#add_user_pane, #add_tea_pane, #add_coffee_pane {
+  margin-top: 0px;
+  margin-left: 40px;
+}
+
+
+
+
+
+.footer {
+    min-height: 320px;
+    background-color: #20c997;
+    width: 100%;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 50px;
+  }
+  
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  
+  /* footer left*/
+  
+  .footer .footer-left {
+    width: 33%;
+    padding-right: 15px;
+  }
+  
+  .footer .about {
+    line-height: 20px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .footer .about span {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .footer .icons {
+    margin-top: 25px;
+  }
+  
+  .footer .icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+  }
+  
+  
+  /* footer center*/
+  
+  .footer .footer-center {
+    width: 30%;
+  }
+  
+  .footer .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+  }
+  
+  .footer .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+  }
+  
+  .footer .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+  }
+  
+  .footer .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+  }
+  
+  .footer .footer-center p a {
+    color: rgb(112, 58, 14) !important;
+    text-decoration: none;
+  }
+  
+  
+  /* footer right*/
+  
+  .footer .footer-right {
+    width: 35%;
+  }
+  
+  .footer h2 {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .footer h2 span {
+    color: rgb(112, 58, 14) !important;
+  }
+  
+  .footer .menu {
+    color: #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+  }
+  
+  .footer .menu a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .footer .menu a:hover {
+    color: #0099ff;
+  }
+  
+  .footer .name {
+    color: rgb(240, 237, 77);
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  @media (max-width: 767px) {
+    .footer {
+      font-size: 14px;
+    }
+    .footer .footer-left,
+    .footer .footer-center,
+    .footer .footer-right {
+      display: block;
+      width: 100%;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    .footer .footer-center i {
+      margin-left: 0;
+    }
+  }
+
+  #content {
+      width: 80%;
+      margin: 0 auto;
+  }

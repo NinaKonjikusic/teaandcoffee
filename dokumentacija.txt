@@ -1,0 +1,17 @@
+Ovaj sajt je namenjen za informisanje korisnika o čajevima i kafama. Na ovom sajtu mogu dobiti informacije o cenama, poreklu i ukusu čajeva i kafa.
+U navigacionom meniju postoje linkove ka stranama, kao što su:
+
+Pocetna strana (Index): na ovoj strani korisnicima se prikazuje baner i istorija upotrebe čajeva i kafa.
+
+Tea: Stranica na kojoj korisnici mogu da vide neke od dostupnih čajeva kao i osnovne informacije o njima. Klikom na neki od čajeva otvara se taj čaj sa vise informacija o njemu.
+Takođe korisnici imaju mogućnost da iste pretražuju i sortiraju rastuće ili opadajuće.
+
+Coffee: Stranica sa kafama, slično kao i sa čajevima, klikom na kafu otvara se više informacija o njoj. Korisnici mogu da sortiraju i pretražuju kafe.
+
+Kontakt (Contact) - na ovoj stranici korisnici mogu da pošalju poruku administratoru.
+
+Login - na ovoj stranici korisnici mogu da se prijave sa kreiranim nalogom.
+
+Register - na ovoj stranici korisnici mogu da kreiraju svoj korisnički nalog.
+
+U slučaju da ulogovani korisnik ima ulogu administratora pojavljuje mu se link ka strani admin panel u navigacionom meniju. Na ovoj stranici ima mogućnost da dodaje, modifikuje i briše korisnike, čajeve i kafe.
